@@ -1,0 +1,160 @@
+# Test Cases
+
+## Test Case 1
+
+Input:
+https://example.com
+
+Expected:
+200 Status
+Page title extracted
+Meta description extracted
+H1 count
+Word count
+Image count
+
+Result:
+PASS
+
+---
+
+## Test Case 2
+
+Input:
+https://google.com
+
+Expected:
+Successful audit
+
+Result:
+PASS
+
+---
+
+## Test Case 3
+
+Input:
+https://github.com
+
+Expected:
+Audit report generated
+
+Result:
+PASS
+
+---
+
+## Test Case 4
+
+Input:
+invalid-url
+
+Expected:
+Validation error
+
+Result:
+PASS
+
+---
+
+## Test Case 5
+
+Input:
+abcdef
+
+Expected:
+Invalid URL message
+
+Result:
+PASS
+
+---
+
+## Test Case 6
+
+Input:
+https://httpstat.us/404
+
+Expected:
+404 handled gracefully
+
+Result:
+PASS
+
+---
+
+## Test Case 7
+
+Input:
+https://httpstat.us/500
+
+Expected:
+Server error displayed
+
+Result:
+PASS
+
+---
+
+## Test Case 8
+
+Input:
+https://example.com/file.pdf
+
+Expected:
+Non-HTML response detected
+
+Result:
+PASS
+
+---
+
+## Test Case 9
+
+Input:
+Website with missing meta description
+
+Expected:
+"No Meta Description Found"
+
+Result:
+PASS
+
+---
+
+## Test Case 10
+
+Input:
+Website containing multiple H1 tags
+
+Expected:
+Correct H1 count
+
+Result:
+PASS
+
+---
+
+## Test Case 11
+
+Input:
+Website with images missing alt text
+
+Expected:
+Correct missing alt count
+
+Result:
+PASS
+
+---
+
+## Test Case 12
+
+Input:
+Slow website (>10 seconds)
+
+Expected:
+Timeout handled
+
+Result:
+PASS

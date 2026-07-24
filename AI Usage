@@ -1,0 +1,33 @@
+# AI Usage Declaration
+
+This project was developed using AI-assisted development.
+
+## AI Tool Used
+
+- Rocket.new
+
+## AI Assistance
+
+AI was used for:
+
+- Initial project scaffolding
+- UI generation
+- React component generation
+- Tailwind styling
+- Express API boilerplate
+
+## Human Contributions
+
+The following were completed or verified manually:
+
+- Project architecture
+- API validation
+- Error handling
+- Testing
+- Debugging
+- Feature verification
+- Deployment
+- Final UI adjustments
+- README documentation
+
+All generated code was reviewed, modified, and tested before deployment.
